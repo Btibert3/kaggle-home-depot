@@ -1,0 +1,4 @@
+// add the x constraint
+CREATE CONSTRAINT ON (n:Product) ASSERT n.uid IS UNIQUE;
+CREATE CONSTRAINT ON (n:Term) ASSERT n.text IS UNIQUE;
+CREATE CONSTRAINT ON (n:Search) ASSERT n.id IS UNIQUE;
